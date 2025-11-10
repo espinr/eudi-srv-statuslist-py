@@ -70,6 +70,11 @@ class ConfService:
             "privKey": "/etc/eudiw/age_verification/privKey/AgeVerificationDS-001.pem",
             "privkey_passwd": None,
             "cert": "/etc/eudiw/age_verification/cert/AgeVerificationDS-001_cert.der"
+        },
+        "AV2":{
+            "privKey": "/etc/eudiw/age_verification/privKey/bak/AgeVerificationDS-001.pem",
+            "privkey_passwd": None,
+            "cert": "/etc/eudiw/age_verification/cert/bak/AgeVerificationDS-001_cert.der"
         }
     }
 

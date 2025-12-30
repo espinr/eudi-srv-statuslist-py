@@ -22,7 +22,7 @@ import os
 
 class ConfService:
 
-    service_url = "https://issuer.eudiw.dev/"
+    service_url = "https://status.issuer.pbest.me/"
     # Token status list size (Bytes)
     token_status_list_size = 10000
 
@@ -32,9 +32,9 @@ class ConfService:
 
     countries = {
         "FC":{
-            "privKey":"/etc/eudiw/pid-issuer/privKey/PID-DS-0001_UT.pem",
+            "privKey":"/etc/eudiw/pid-issuer/privKey/PID-DS-0002_UT.pem",
             "privkey_passwd": None,
-            "cert":"/etc/eudiw/pid-issuer/cert/PID-DS-0001_UT_cert.der"
+            "cert":"/etc/eudiw/pid-issuer/cert/PID-DS-0002_UT_cert.der"
         },
         "PT":{
             "privKey":"/etc/eudiw/pid-issuer/privKey/PID-DS-0001_PT.pem",
@@ -110,6 +110,9 @@ class ConfService:
         "urn:eu.europa.ec.eudi:tax:1"
         "urn:eu.europa.ec.eudi:tax:1:1",
         "key-attestation+jwt",
+        "net.openathletics.licence.1",
+        "net.openathletics.fan.1",
+        "net.openathletics.health.1",
 
         
 

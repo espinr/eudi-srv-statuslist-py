@@ -34,7 +34,7 @@ class ConfService:
         "FC":{
             "privKey":"/etc/eudiw/pid-issuer/privKey/PID-DS-0002_UT.pem",
             "privkey_passwd": None,
-            "cert":"/etc/eudiw/pid-issuer/cert/PID-DS-0002_UT_cert.der"
+            "cert":"/etc/eudiw/pid-issuer/cert/PID-DS-0002.cert.der"
         },
         "PT":{
             "privKey":"/etc/eudiw/pid-issuer/privKey/PID-DS-0001_PT.pem",
@@ -114,7 +114,7 @@ class ConfService:
         "net.openathletics.fan.1",
         "net.openathletics.health.1",
 
-        
+
 
 
 
@@ -141,7 +141,7 @@ class ConfService:
         backupCount=backup_count,
     )
 
-    
+
     console_handler = logging.StreamHandler()
     console_handler.setFormatter(logging.Formatter("%(asctime)s %(name)s %(levelname)s %(message)s"))
     log_handler_info.setFormatter(logging.Formatter("%(asctime)s %(name)s %(levelname)s %(message)s"))

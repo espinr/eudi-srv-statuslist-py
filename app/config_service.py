@@ -110,7 +110,7 @@ class ConfService:
         "urn:eu.europa.ec.eudi:tax:1"
         "urn:eu.europa.ec.eudi:tax:1:1",
         "key-attestation+jwt",
-        "net.openathletics.licence.1",
+        "net.openathletics.license.1",
         "net.openathletics.fan.1",
         "net.openathletics.health.1",
 

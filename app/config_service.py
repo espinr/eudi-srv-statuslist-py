@@ -113,11 +113,7 @@ class ConfService:
         "net.openathletics.license.1",
         "net.openathletics.fan.1",
         "net.openathletics.health.1",
-
-
-
-
-
+        "urn:net.openathletics:diploma:1:1"
     }
 
     # ------------------------------------------------------------------------------------------------
